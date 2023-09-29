@@ -1,0 +1,387 @@
+/* common css starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.Button{
+    display: inline-block;
+    color: black;
+    background-color: #cfc91d;
+    padding: 19px 43px;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+.Heading{
+    text-align: center;
+    
+}
+.Heading h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+
+}
+.Heading h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    margin-bottom: 35px;
+    
+}
+.Heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    margin-bottom: 80px;
+}
+span{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+/* common css end */
+/* navbar starts */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: block;
+}
+/* navbar end */
+/* Banner Starts Here */
+#Banner{
+    height: 728px;
+    width: 100%;
+    background-image: url('../images/Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Banner .container,
+#Banner .row{
+    height: 728px;
+}
+#Banner .Banner_cnt{
+    text-align: center;
+    color: white;
+}
+#Banner .Banner_cnt h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+#Banner .Banner_cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+#Banner .Banner_cnt p{
+    font-weight: 400;
+    font-size: 18px;
+}
+#Banner .Banner_cnt img{
+    padding: 52px 0;
+}
+/* Banner Ends Here */
+/* About Section Starts */
+#About{
+    padding: 100px 0;
+}
+
+   
+
+
+#About .About_card{
+    width: 25%;
+    margin-top: 119px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding: 30px 0;
+    
+
+   
+    
+    
+}
+.About_card span{
+    color: #02918c;
+    font-size: 30px;
+}
+.About_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 25px 0;
+}
+.About_card p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    padding: 0 50px;
+}
+#About .About_card:last-child{
+    border: none;
+}
+
+
+
+
+/* About Section End */
+/* Services Section Starts */
+#Services{
+    height: 728px;
+    width: 100%;
+    background-image: url('../images/Banner2.jpg');
+    background-size: cover;
+
+
+}
+#Services .service{
+    width: 50%;
+    text-align: left;
+    padding-top: 74px;
+  
+}
+#Services .service h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+        
+       
+    
+    
+}
+#Services .service h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    padding-bottom: 30px;
+    
+    
+}
+#Services .service p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    padding-bottom: 62px;
+}
+#Services .row{
+    
+    justify-content: left;
+
+}
+#Services .service_card span{
+    color: #02918c;
+    font-size: 30px;
+    
+}
+#Services .service_card{
+    text-align: left;
+    width: 50%;
+    
+}
+#Services .service_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin-top: 10px;
+}
+#Services .service_card p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+
+}
+
+/* Services Section End */
+/* Work Section Starts */
+#Work .work{
+    text-align: center;
+}
+#Work .work h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-top: 110px;
+}
+#Work .work h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    margin-top: 31px;
+}
+#Work .work p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    
+}
+#Work .work_card{
+    width: 25%;
+    position: relative;
+    
+    
+}
+#Work .work_card img{
+    width: 100%;
+    display: block;
+    
+}    
+#Work .work_card .overlay{
+    position: absolute;
+    background-color: #02918c84;
+    inset: 20px;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+#Work .work_card:hover .overlay{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    opacity: 1;
+}
+#Work .work_card .overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+
+}
+#Work .work_card .overlay p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+/* Work Section End */
+/* Contact Section Starts */
+#Contact .Contact_cnt{
+    text-align: center;
+    padding: 100px;
+}
+#Contact .Contact_cnt h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+#Contact .Contact_cnt h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    margin-bottom: 28px;
+}
+#Contact .Contact_cnt p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    margin-bottom: 74px;
+}
+
+/* Contact Section End */
+/* Footer Section Starts */
+#Footer{
+    background-color: #0b0b0b;
+    padding: 65px 0;
+    margin-top: 60px;
+    
+}
+.form_input{
+    width: 640px;
+    
+    margin: auto;
+    margin-bottom: 60px;
+}
+.form_input input{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    outline: none;
+}
+.large-input{
+    width: 917px;
+}
+
+.button{
+    margin: auto;
+    margin-bottom: 70px;
+}
+.footer2{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    background-color: #000000;
+    padding: 35px 0;
+}
+.footer2 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #7e8287;
+}
+/* Footer Section End */
+
+
